@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- block elements -->
+    <!-- inline elements -->
+
+    <form action="/sendData">
+        
+        
+        <!-- <input type="number" /> 
+        <input type="email" />
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="color" />
+        <input type="file" />
+        <input type="hidden" />
+        <input type="password" />
+        <input type="range" />
+        <input type="time" />
+        <input type="week" />
+        <input type="search" name="" id="" /> -->
+        
+
+
+        <div>
+            <input type="text"  placeholder="Username" name="username" required/> 
+        </div>
+        <br/>
+        <div>
+            <input type="email"  placeholder="Email" name="email" value="Somthing" required readonly/> 
+        </div>
+        <br/>
+        <div>
+            <select name="city">
+                <option>Select a City</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+        </div>
+        <br />
+        <textarea cols="100" rows="10" placeholder="Comments" name="comments"></textarea>
+
+
+        <div>
+            <input type="radio" name="gender" id="male" value="male" checked/>
+            <label for="male" >Male</label> 
+
+            <input type="radio" name="gender" id="female" value="female"/> 
+            <label for="female">Female</label>
+        </div>
+
+        <br />
+        <div>
+            <span>Pre Location : </span> 
+
+            <input type="checkbox"  id="chennai" name="location" value="chennai" checked>
+            <label for="chennai" >Chennai</label>
+
+            <input type="checkbox" id="bangalore" name="location" value="bangalore">
+            <label for="bangalore" >Bangalore</label>
+
+            <input type="checkbox" id="delhi" name="location" value="delhi">
+            <label for="delhi" >Delhi</label>
+
+            <input type="checkbox" id="mumbai" name="location" value="mumbai">
+            <label for="mumbai" >Mumbai</label>
+        </div>
+
+        <!-- <input type="button" value="Submit" /> -->
+
+        <button type="submit"> Submit</button>
+    </form>
+
+    
+</body>
+</html>
