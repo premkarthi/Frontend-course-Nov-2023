@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <tittle><h2>Survey Document</h2></tittle>
+    </head>
+
+    <body>
+    <!-- block elements -->
+    <!-- inline elements -->
+
+    <form action="/sendData">
+
+        <div>
+            <lable for="Name" > Name: </lable>
+            <input type="Text" Paceholder="Name" Name="Name" required />
+        </div>
+        <br>
+
+        <div>
+            <lable for="Email" > Email ID: </lable>
+            <input type="email" Placeholder="Email" Name="Email" value="Something required " />
+        </div>
+        <br>
+        <div>
+            <lable for="Age" > Age: </lable>
+            <input type="Number" Placeholder="Age" Name="Age" required />
+        </div>
+        <br>
+
+        <div>
+            <lable for="Gender"> Gender <br>
+            <input type="radio" Name="Gender" id="Male" Value="Male" />
+            <lable for="Male" >Male</lable>
+            <br>
+            <input type="radio" Name="Gender" id="Female" Value="Female" />
+            <lable for="Female" >Female</lable>
+        </lable>
+        </div>
+        <br>
+
+        <div>
+            <lable for="Contact Number" > Contact Number: </lable>
+            <input type="Number" Placeholder="Contact Number" Name="Contact Number" required>
+        </div>
+        <br>
+
+        <div>
+            <lable for="Select your Favourite Food"> Select Your Favourite Food: </lable>
+            <select name="favourite-food"> 
+               <option value="briyani"> Briyani </option> 
+               <option value="Noodles"> Noodles </option>
+               <option value="Pizza"> Pizza </option>
+               <option value="Chapathi"> Chapathi </option>
+               <option value="chinese food">Chinese food</option>
+               <option value="Continental food"> Continental food </option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <span> Do You Like to cook</span>
+            <br>
+            <input type="Checkbox" id="Yes" Name="Do You Like to Cook" Value="Yes">
+            <lable for="Yes">Yes</lable>
+            <br>
+
+            <input type="Checkbox" id="No" Name="Do You Like to Cook" Value="No">
+            <lable for="No"> No </lable>
+            <br>
+        </div>
+        <br>
+        
+        <lable for="Comments">Comments</lable>
+        <br>
+        <textarea cols="100" rows="10" Placeholder="Text" Name="Comments"></textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+            
+        <!-- <input type="button" value="Submit" /> -->
+        <button >Submit</button>
+    </form>
+
+    </body>
+</html> 

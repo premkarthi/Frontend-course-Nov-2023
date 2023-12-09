@@ -1,0 +1,65 @@
+/* tagname Selector */
+h1{
+    color: red; 
+    font-size: 50px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: italic;
+}
+
+/* class selector */
+.firstPara{
+    color: brown; 
+    font-size: 20px;
+}
+
+/* id selector */
+#submit{
+    background: blue;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+
+
+/* Group selectors */
+h1, h2, h3, h4{
+    color: blueviolet;
+}
+
+
+
+header{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+}
+
+
+/* Order */
+/* ID  */
+/* CLASS */
+/* Tagname */
+
+section{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+}
+
+#section div p{
+    color: green;
+}
+
+.para{
+    color: red;
+}
+
+#section div ul li {
+    color: blue;
+}
+
+
+/* worst case  */
+#list {
+     color: yellowgreen !important;
+}
