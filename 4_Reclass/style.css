@@ -1,0 +1,40 @@
+ /* Wildcard Selectors / Universal Selectors */
+ *{
+    color: chocolate;
+}
+
+
+
+
+
+/* group selectors */
+h3 , h4{
+    color: red;
+    font-size: 50px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+p{
+    color: green;
+    font-size: 20px;
+}
+
+b{
+    color: red;
+}
+/* class selector */
+.paragraph1 b{
+    color: black;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+
+/* ID Selector */
+#formSubmit{
+    background: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
