@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* 1. normal */
+/* using names -> red, white, black */
+/* using RGB  */
+
+/* Red, blue , green === Range 0 - 255 */
+
+/* h2{
+    color: red;
+} */
+/* h2{
+    color: rgb(0 ,176, 255);
+} */
+
+
+/* hexcode range - 0 to 9 -> A - F */
+
+/* h2{
+    color: hwb(105 0% 60%);
+} */
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    border: 10px solid green;
+    text-align: right;
+    /* padding: 100px; */
+}
+
+/* top, right, bottom , left  */
+
+h2{
+    /* margin: 100px 0px 100px 0px;
+    padding: 0px 100px 0px 100px; */
+
+
+    /* first value= top, bottom   */
+    /* second value = right, left  */
+    /* margin: 100px 0px;
+    padding: 0px 100px; */
+
+
+    /* margin: 100px 0px 200px; 
+    padding: 0px 100px; */
+
+    height: 100px;
+    width: 100px;
+
+    border: 10px solid #41ba00;
+}
+
+
+a{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+}
