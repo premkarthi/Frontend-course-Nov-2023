@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.parent{
+    background-color: gray;
+    padding: 20px;
+    position: relative;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+
+.box1{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
+}
+
+.box3{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.box2{
+    background: red;
+}
+
+.box3{
+    background: pink;
+}

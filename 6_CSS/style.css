@@ -1,0 +1,73 @@
+
+/* button{
+    background: red;
+    font-size: 20px;
+} */
+
+
+
+/* Psuedo Classes */
+
+/* button:hover{
+    background: green;
+    font-size: 30px;
+    border-color: blue;
+    color: white;
+} */
+
+
+button:disabled{
+    background: pink;
+    cursor: not-allowed;
+}
+
+input:focus{
+    background: green;
+}
+
+
+/* ul li:first-child{
+    color: red;
+} */
+
+/* 
+ul li:last-child{
+    color: green;
+}
+
+ul li:nth-child(5){
+    color: brown;
+    background: red;
+    font-size: x-small;
+} */
+
+
+ul li{
+    color: red;
+}
+
+ul li:nth-child(2n+1){
+    color: green;
+    background: gray;
+}
+
+
+
+/* Psuedo Elements */
+
+h2::first-letter{
+    color: green;
+}
+
+
+ul li::marker{
+    color: blue;
+}
+
+h2::before{
+    content: 'Hello';
+}
+
+h2::after{
+    content: 'Something';
+}

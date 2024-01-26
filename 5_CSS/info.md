@@ -6,5 +6,3 @@
 
 ### Box-modal - margin, border, padding, content- !important interview question
 
-
-<!-- Pending -->
