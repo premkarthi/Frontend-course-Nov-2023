@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: black;
+    position: relative;
+    padding: 20px;
+}
+
+button{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+
+section{
+    background: cadetblue;
+    padding: 20px;
+    margin: 0;
+   
+    width: 100%;
+}
+
+footer{
+    background: blue;
+    padding: 20px;
+    margin: 0;
+    position: sticky;
+    top: 10px;
+}
