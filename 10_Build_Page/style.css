@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #1f1f11;
+}
+main{
+    background: #ffffff;
+    width: 944px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.header {
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+align-items: center;
+}
+.header p{
+font-size: 18px;
+color: #808080;
+}
+.para{
+display: flex;
+}
+.para p{
+margin: 0 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.todo, .progress, .done{
+    background: #F2F2F2;
+    width: 272px;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.title{
+    background: #FFFFFF;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.details{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.details h4, .details p{
+    margin-bottom: 10px;
+}
+.empty{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted #000000;
+}
+.low{
+    background: #E5FFE5;
+    border-radius: 24px;
+    height: 20px;
+    padding: 0px 5px;
+    color: #00CC00;
+}
+.meduim{
+    background: #FFF6E5;
+    border-radius: 24px;
+    height: 20px;
+    padding: 0px 5px;
+    color: #FFAA00;
+}
+.high{
+    background: #FFE5E5;
+    border-radius: 24px;
+    height: 20px;
+    padding: 0px 5px;
+    color: #FF0000;
+}
